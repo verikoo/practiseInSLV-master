@@ -1,0 +1,4 @@
+2022-12-05 19:57:20,484 DEBUG Main [main] debug
+2022-12-05 19:57:20,486 INFO Main [main] info
+2022-12-05 19:57:20,487 WARN Main [main] warn
+2022-12-05 19:57:20,487 ERROR Main [main] error
