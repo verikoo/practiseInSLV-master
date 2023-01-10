@@ -30,7 +30,6 @@ public class Monkey extends Animals implements AnimalAction  {
         this.characterType = characterType;
     }
 
-//    some code for testing
 
     public void demoMonkey(){
         demoAnimalsExample();
