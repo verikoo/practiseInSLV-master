@@ -1,10 +1,12 @@
 package zoo;
+import interfasexamples.AnimalEat;
+import interfasexamples.AnimalSound;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
-import interfasexamples.AnimalAction;
+import interfasexamples.AnimalSleep;
 
-public class Monkey extends Animals implements AnimalAction  {
+public class Monkey extends Animals implements AnimalSleep, AnimalEat, AnimalSound {
     private final static Logger LOGGER = LogManager.getLogger(Monkey.class);
     private int weight;
     private String characterType; // love or not visitors
@@ -46,5 +48,10 @@ public class Monkey extends Animals implements AnimalAction  {
     public void animalSleep(){
         LOGGER.info("Monkey sleeps 12 hour");
     }
+
+    public void animalEat(){
+        LOGGER.info("Monkey eats meats and plants");
+    }
+
 
 }

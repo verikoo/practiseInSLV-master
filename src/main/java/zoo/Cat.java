@@ -1,8 +1,10 @@
 package zoo;
 
-import interfasexamples.AnimalAction;
+import interfasexamples.AnimalEat;
+import interfasexamples.AnimalSleep;
+import interfasexamples.AnimalSound;
 
-public class Cat extends Animals implements AnimalAction {
+public class Cat extends Animals implements AnimalSleep, AnimalSound, AnimalEat {
     private String color;
     private boolean sterilization;
 
@@ -44,4 +46,7 @@ public class Cat extends Animals implements AnimalAction {
     public void animalSleep(){
         System.out.println("Cat sleeps 12-16 hour");
     }
+
+    public void animalEat(){System.out.println("Cat eat fish "); }
+
 }

@@ -4,7 +4,7 @@ import exceptionsexamples.custom.AnimalExceptions;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class Animals {
+public abstract class Animals {
     private final static Logger LOGGER = LogManager.getLogger(Animals.class);
     private  String familyClassification; //class
     private int lifeCircle;
@@ -23,6 +23,10 @@ public class Animals {
         this.species=species;
         this.color=color;
         this.name=name;
+    }
+    @Override
+    public String toString(){
+        return "Animal name: " + name + "Animal age: " + age;
     }
 
     //get--------------------------------------

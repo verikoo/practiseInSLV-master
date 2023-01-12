@@ -45,10 +45,13 @@ public class Main {
         ZooFood ex3 = ZooFood.FISH;
         System.out.println("ZooFood"+ex3.getZooFood());
 
-        LOGGER.info("-------Animals examples------") ;
-        LOGGER.info("Monkey");
+        LOGGER.error("-------Animals examples------") ;
+        LOGGER.error("Monkey");
         Monkey Mila = new Monkey("Mammal", 20, 4, "Chordata", "sooty", "brown", "Mila", 7, "love playing with people");
         Mila.demoMonkey();
+        Mila.animalSound();
+        Mila.animalSleep();
+        Mila.animalEat();
 
         Mila.animalSleep();
         LOGGER.info("Mila hashcode is: " + Mila.hashCode());
@@ -58,11 +61,12 @@ public class Main {
         Lulu.demoCat();
         Lulu.animalSound();
         Lulu.animalSleep();
+        Lulu.animalEat();
         LOGGER.info("Lulu hashcode is: " + Lulu.hashCode());
 
 
 
-        AviaryGarden yellowBirds = new AviaryGarden(105, 105, 80, "garden", "outside", "Baly Mina", 015, 21);
+        AviaryGarden yellowBirds = new AviaryGarden(105, 105, 80, "garden", "outside", "Baly Mina", 15, 21);
         yellowBirds.setHeight(109);
         yellowBirds.demoAviaryGarden();
         LOGGER.info("yellow birds aviary hashcode is: " + yellowBirds.hashCode());
