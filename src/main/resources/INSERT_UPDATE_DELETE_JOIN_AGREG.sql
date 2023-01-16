@@ -1,9 +1,12 @@
+USE mydb;
 -- insert 1
-INSERT INTO CUSTOMERS(id, FIRST_NAME, LAST_NAME, EMAIL, PHONE, ADDRESS, SERVISE_REQUEST_id)
-VALUES(001,'Liza', 'Smith', 'smith@example.com', '000-00-1', 1), 
-(002, 'Emma', 'Jonson', 'jonson@example.com', '000-00-2', 2),
-(003, 'Michael', 'Williams', 'williams@example.com', '000-00-3', 3),
-(004, 'Sophia', 'JOnes', 'jones@example.com', '000-00-4', 4);
+INSERT INTO CUSTOMERS(id, FIRST_NAME, LAST_NAME, EMAIL, PHONE, ADDRESS, SERVICE_REQUEST_id)
+VALUES(1,'Liza', 'Smith', 'smith@example.com', '000-00-1','address 1', 1), 
+(2, 'Emma', 'Jonson', 'jonson@example.com', '000-00-2','address 2', 2),
+(3, 'Michael', 'Williams', 'williams@example.com', '000-00-3','address 3', 3),
+(4, 'Sophia', 'JOnes', 'jones@example.com', '000-00-4', 'address 4', 4);
+
+select sum(FIRST_NAME) from CUSTOMERS;
 -- insert 2
 INSERT INTO SHOP(id, NAME, PHONE, EMAIL, ADDRESS, OPEN_HOURS)
 VALUES(5001, 'Central Mobile Shop', '500-00-1', 'central@example.com', 'Pirosmani str 123', '24/7'),
