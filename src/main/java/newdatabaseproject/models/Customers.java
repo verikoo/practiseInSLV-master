@@ -54,12 +54,12 @@ public class Customers {
     public String toString() {
         return "Customers{" +
                 "id=" + id +
-                ", name='" + name + '\'' +
-                ", surName='" + surName + '\'' +
-                ", contactNumber=" + contactNumber +
-                ", email='" + email + '\'' +
-                ", address='" + address + '\'' +
-                ", purchaseHistory=" + purchaseHistory +
+                ", Name='" + name + '\'' +
+                ", SurName='" + surName + '\'' +
+                ", Contact_Number=" + contactNumber +
+                ", Email='" + email + '\'' +
+                ", Address='" + address + '\'' +
+                ", Purchase_History=" + purchaseHistory +
                 '}';
     }
 }

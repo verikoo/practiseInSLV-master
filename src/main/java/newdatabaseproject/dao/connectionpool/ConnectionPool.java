@@ -1,7 +1,7 @@
 package newdatabaseproject.dao.connectionpool;
-import org.apache.logging.log4j.Logger;
+
 import org.apache.logging.log4j.LogManager;
-import zoo.Monkey;
+import org.apache.logging.log4j.Logger;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -11,8 +11,9 @@ import java.sql.SQLException;
 import java.util.Properties;
 import java.util.Stack;
 import java.util.Vector;
+
 public class ConnectionPool {
-    private final static Logger LOGGER = LogManager.getLogger(ConnectionPool.class);
+    private static final Logger LOGGER = LogManager.getLogger(ConnectionPool.class);
     private static final int CON_POOL_SIZE = 5;
     private static Properties p = new Properties();
     private static String userName;
@@ -33,9 +34,16 @@ public class ConnectionPool {
         }
     }
 
+    private static ConnectionPool instance = null;
+
+    public static ConnectionPool getInstance() {
+        if (instance == null) instance = new ConnectionPool();
+        return instance;
+    }
+
     static {
         try (FileInputStream f = new FileInputStream("/Users/veriko/Desktop/practiseInSLV-master/src/main/resources/database.properties")) {
-            p.load(f);
+           p.load(f);
         } catch (IOException e) {
             LOGGER.info(e);
         }
@@ -67,14 +75,15 @@ public class ConnectionPool {
         return newConn;
     }
 
-    public synchronized void Back(Connection c) {
+    public synchronized void putback(Connection c) {
         if (c != null) {
             if (activeConnections.removeElement(c)) {
                 conPool.addElement(c);
-                LOGGER.info("connection back to Connection pool: " + c.toString());
+                LOGGER.info("Putting the connection back to Connection pool: " + c.toString());
             } else {
                 throw new NullPointerException("Connection is not in the Active Connections array");
             }
         }
     }
 }
+

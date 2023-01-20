@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Customers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNameSpacehemaLocation="customers.xsd">
+    <Customer id="1">
+        <Name>Veriko</Name>
+        <Surname>Lomadze</Surname>
+        <Contact_Number>333-223-22</Contact_Number>
+        <Email>veriko@example.com</Email>
+        <Address>address example 123</Address>
+        <Purchase_History>no hist</Purchase_History>
+    </Customer>
+
+    <Customer id="2">
+        <Name>Maria</Name>
+        <Surname>Lobzjanidze</Surname>
+        <Contact_Number>3311-223-22</Contact_Number>
+        <Email>Maria@example.com</Email>
+        <Address>address example ei33</Address>
+        <Purchase_History>no hist</Purchase_History>
+    </Customer>
+
+    <Customer id="3">
+        <Name>Salome</Name>
+        <Surname>Sebiskveradze</Surname>
+        <Contact_Number>111-223-22</Contact_Number>
+        <Email>Salome@example.com</Email>
+        <Address>address example 2311113</Address>
+        <Purchase_History>no hist</Purchase_History>
+    </Customer>
+
+    <Customer id="4">
+        <Name>Nika</Name>
+        <Surname>JOnes</Surname>
+        <Contact_Number>199923-22</Contact_Number>
+        <Email>Nika@example.com</Email>
+        <Address>jonas example 2311113</Address>
+        <Purchase_History>no hist</Purchase_History>
+    </Customer>
+
+    <Customer id="1">
+        <Name>Beka</Name>
+        <Surname>Kvaranchxiladze</Surname>
+        <Contact_Number>09209-23-4</Contact_Number>
+        <Email>beka@example.com</Email>
+        <Address>address 34 </Address>
+        <Purchase_History>no hist</Purchase_History>
+    </Customer>
+</Customers>

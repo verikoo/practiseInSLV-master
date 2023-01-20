@@ -1,0 +1,3 @@
+2023-01-18 16:57:25,416 INFO n.d.c.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@52d645b1
+2023-01-18 16:57:25,446 INFO n.d.c.ConnectionPool [main] Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@52d645b1
+2023-01-18 16:57:25,468 INFO n.JDBCMain [main] Customers{id=1, name='Updated Name', surName='Smith', contactNumber=000-00-1, email='smith@example.com', address='address 1', purchaseHistory=no hist}
