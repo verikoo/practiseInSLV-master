@@ -1,0 +1,12 @@
+2023-01-23 14:23:36,778 INFO x.DOMExample [main] Root Element:Customers
+2023-01-23 14:23:36,781 INFO x.DOMExample [main] ______________
+2023-01-23 14:23:36,782 INFO x.DOMExample [main] \nCurrent Element :Customer
+2023-01-23 14:23:36,782 INFO x.DOMExample [main] Name :Veriko
+2023-01-23 14:23:36,782 INFO x.DOMExample [main] \nCurrent Element :Customer
+2023-01-23 14:23:36,782 INFO x.DOMExample [main] Name :Maria
+2023-01-23 14:23:36,782 INFO x.DOMExample [main] \nCurrent Element :Customer
+2023-01-23 14:23:36,783 INFO x.DOMExample [main] Name :Salome
+2023-01-23 14:23:36,783 INFO x.DOMExample [main] \nCurrent Element :Customer
+2023-01-23 14:23:36,784 INFO x.DOMExample [main] Name :Nika
+2023-01-23 14:23:36,784 INFO x.DOMExample [main] \nCurrent Element :Customer
+2023-01-23 14:23:36,784 INFO x.DOMExample [main] Name :Beka
