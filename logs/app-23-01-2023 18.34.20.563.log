@@ -1,0 +1,5 @@
+2023-01-23 18:34:20,879 INFO e.ZooEmployExample [main] VETERINARIAN: Responsible for the healthcare program for the animal collection and the maintenance of health records.
+2023-01-23 18:34:20,883 INFO e.ZooEmployExample [main] CURATOR: Manages some or all of an institution's animal collection. For instance, there may be a curator of mammals, or a curator of rainforest species. 
+2023-01-23 18:34:20,883 INFO e.ZooEmployExample [main] KEEPER: Provides daily care to the institution's animals, including diet preparation, cleaning, general exhibit maintenance, and recordkeeping.
+2023-01-23 18:34:20,883 INFO e.ZooEmployExample [main] REGISTRAR: Maintains computer records on the animal collection and applies for permits and licenses to hold or transport animals.
+2023-01-23 18:34:20,883 INFO e.ZooEmployExample [main] Executes policies as directed by the governing authority. Responsible for the institution's operation and plans for future development.
