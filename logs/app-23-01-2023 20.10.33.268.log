@@ -1,0 +1,27 @@
+2023-01-23 20:10:33,601 INFO x.DOMExample [main] Root Element:Customers
+2023-01-23 20:10:33,604 INFO x.DOMExample [main] ______________
+2023-01-23 20:10:33,604 INFO x.DOMExample [main] \nCurrent Element :Customer
+2023-01-23 20:10:33,604 INFO x.DOMExample [main] Name :Veriko
+2023-01-23 20:10:33,604 INFO x.DOMExample [main] Surname: Lomadze
+2023-01-23 20:10:33,605 INFO x.DOMExample [main] Email:veriko@example.com
+2023-01-23 20:10:33,605 INFO x.DOMExample [main] Purchase_History:no hist
+2023-01-23 20:10:33,606 INFO x.DOMExample [main] \nCurrent Element :Customer
+2023-01-23 20:10:33,606 INFO x.DOMExample [main] Name :Maria
+2023-01-23 20:10:33,607 INFO x.DOMExample [main] Surname: Lobzjanidze
+2023-01-23 20:10:33,607 INFO x.DOMExample [main] Email:Maria@example.com
+2023-01-23 20:10:33,607 INFO x.DOMExample [main] Purchase_History:no hist
+2023-01-23 20:10:33,607 INFO x.DOMExample [main] \nCurrent Element :Customer
+2023-01-23 20:10:33,608 INFO x.DOMExample [main] Name :Salome
+2023-01-23 20:10:33,609 INFO x.DOMExample [main] Surname: Sebiskveradze
+2023-01-23 20:10:33,609 INFO x.DOMExample [main] Email:Salome@example.com
+2023-01-23 20:10:33,611 INFO x.DOMExample [main] Purchase_History:no hist
+2023-01-23 20:10:33,611 INFO x.DOMExample [main] \nCurrent Element :Customer
+2023-01-23 20:10:33,611 INFO x.DOMExample [main] Name :Nika
+2023-01-23 20:10:33,611 INFO x.DOMExample [main] Surname: JOnes
+2023-01-23 20:10:33,612 INFO x.DOMExample [main] Email:Nika@example.com
+2023-01-23 20:10:33,612 INFO x.DOMExample [main] Purchase_History:no hist
+2023-01-23 20:10:33,612 INFO x.DOMExample [main] \nCurrent Element :Customer
+2023-01-23 20:10:33,612 INFO x.DOMExample [main] Name :Beka
+2023-01-23 20:10:33,613 INFO x.DOMExample [main] Surname: Kvaranchxiladze
+2023-01-23 20:10:33,613 INFO x.DOMExample [main] Email:beka@example.com
+2023-01-23 20:10:33,615 INFO x.DOMExample [main] Purchase_History:no hist

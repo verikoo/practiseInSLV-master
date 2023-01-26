@@ -1,0 +1,781 @@
+2023-01-26 17:38:51,138 INFO t.ThreadClass [main] starting hello thread
+2023-01-26 17:38:51,141 INFO t.ThreadClass [main] Starting Good bye thread...
+2023-01-26 17:38:51,142 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,142 INFO t.ThreadClass [main] starting thread 3...
+2023-01-26 17:38:51,142 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,143 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,143 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,143 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,144 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,144 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,145 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,145 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,146 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,146 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,147 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,147 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,147 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,150 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,151 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,151 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,152 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,152 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,152 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,157 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,157 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,159 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,159 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,159 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,159 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,159 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,159 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,160 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,160 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,160 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,160 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,160 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,163 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,163 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,164 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,164 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,163 INFO t.GuessANumber [Thread-2] Thread-2 guesses 39
+2023-01-26 17:38:51,164 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,164 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,164 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,165 INFO t.GuessANumber [Thread-2] Thread-2 guesses 78
+2023-01-26 17:38:51,165 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,165 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,168 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,168 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,168 INFO t.GuessANumber [Thread-2] Thread-2 guesses 6
+2023-01-26 17:38:51,168 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,168 INFO t.GuessANumber [Thread-2] Thread-2 guesses 71
+2023-01-26 17:38:51,168 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,168 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,168 INFO t.GuessANumber [Thread-2] Thread-2 guesses 27
+2023-01-26 17:38:51,169 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,169 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,169 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,169 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,169 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,169 INFO t.GuessANumber [Thread-2] ** Wow, Correct!Thread-2in5guesses.**
+2023-01-26 17:38:51,170 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,169 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,170 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,171 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,171 INFO t.ThreadClass [main] Starting Thread 4
+2023-01-26 17:38:51,171 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,171 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,172 INFO t.ThreadClass [main] main() is ending...
+2023-01-26 17:38:51,172 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,172 INFO t.GuessANumber [Thread-3] Thread-3 guesses 34
+2023-01-26 17:38:51,174 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,174 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,175 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,175 INFO t.GuessANumber [Thread-3] Thread-3 guesses 69
+2023-01-26 17:38:51,175 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,177 INFO t.GuessANumber [Thread-3] Thread-3 guesses 99
+2023-01-26 17:38:51,177 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,177 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,177 INFO t.GuessANumber [Thread-3] Thread-3 guesses 72
+2023-01-26 17:38:51,177 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,177 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,177 INFO t.GuessANumber [Thread-3] Thread-3 guesses 36
+2023-01-26 17:38:51,177 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,177 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,178 INFO t.GuessANumber [Thread-3] Thread-3 guesses 11
+2023-01-26 17:38:51,178 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,178 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,178 INFO t.GuessANumber [Thread-3] Thread-3 guesses 4
+2023-01-26 17:38:51,178 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,179 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,179 INFO t.GuessANumber [Thread-3] Thread-3 guesses 42
+2023-01-26 17:38:51,179 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,179 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,179 INFO t.GuessANumber [Thread-3] Thread-3 guesses 87
+2023-01-26 17:38:51,179 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,179 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,179 INFO t.GuessANumber [Thread-3] Thread-3 guesses 63
+2023-01-26 17:38:51,179 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,179 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,179 INFO t.GuessANumber [Thread-3] Thread-3 guesses 64
+2023-01-26 17:38:51,179 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,179 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,179 INFO t.GuessANumber [Thread-3] Thread-3 guesses 23
+2023-01-26 17:38:51,179 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,179 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,179 INFO t.GuessANumber [Thread-3] Thread-3 guesses 94
+2023-01-26 17:38:51,181 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,181 INFO t.GuessANumber [Thread-3] Thread-3 guesses 90
+2023-01-26 17:38:51,181 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,181 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,181 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,181 INFO t.GuessANumber [Thread-3] Thread-3 guesses 74
+2023-01-26 17:38:51,181 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,181 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,181 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,181 INFO t.GuessANumber [Thread-3] Thread-3 guesses 45
+2023-01-26 17:38:51,182 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,182 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,182 INFO t.GuessANumber [Thread-3] Thread-3 guesses 65
+2023-01-26 17:38:51,182 INFO t.GuessANumber [Thread-3] Thread-3 guesses 43
+2023-01-26 17:38:51,182 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,182 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,183 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,183 INFO t.GuessANumber [Thread-3] Thread-3 guesses 56
+2023-01-26 17:38:51,183 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,183 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,183 INFO t.GuessANumber [Thread-3] Thread-3 guesses 27
+2023-01-26 17:38:51,183 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,184 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,184 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,184 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,185 INFO t.GuessANumber [Thread-3] Thread-3 guesses 99
+2023-01-26 17:38:51,185 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,185 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,186 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,186 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,186 INFO t.GuessANumber [Thread-3] Thread-3 guesses 4
+2023-01-26 17:38:51,186 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,186 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,186 INFO t.GuessANumber [Thread-3] Thread-3 guesses 92
+2023-01-26 17:38:51,186 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,186 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,186 INFO t.GuessANumber [Thread-3] Thread-3 guesses 5
+2023-01-26 17:38:51,186 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,186 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,186 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,186 INFO t.GuessANumber [Thread-3] Thread-3 guesses 79
+2023-01-26 17:38:51,186 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,187 INFO t.GuessANumber [Thread-3] Thread-3 guesses 38
+2023-01-26 17:38:51,187 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,187 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,187 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,187 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,187 INFO t.GuessANumber [Thread-3] Thread-3 guesses 6
+2023-01-26 17:38:51,187 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,188 INFO t.GuessANumber [Thread-3] Thread-3 guesses 15
+2023-01-26 17:38:51,188 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,188 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,188 INFO t.GuessANumber [Thread-3] Thread-3 guesses 89
+2023-01-26 17:38:51,188 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,190 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,190 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,190 INFO t.GuessANumber [Thread-3] Thread-3 guesses 83
+2023-01-26 17:38:51,192 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,192 INFO t.GuessANumber [Thread-3] Thread-3 guesses 20
+2023-01-26 17:38:51,193 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,193 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,193 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,193 INFO t.GuessANumber [Thread-3] Thread-3 guesses 87
+2023-01-26 17:38:51,193 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,193 INFO t.GuessANumber [Thread-3] Thread-3 guesses 24
+2023-01-26 17:38:51,193 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,193 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,193 INFO t.GuessANumber [Thread-3] Thread-3 guesses 31
+2023-01-26 17:38:51,193 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,194 INFO t.GuessANumber [Thread-3] Thread-3 guesses 18
+2023-01-26 17:38:51,194 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,194 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,197 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,198 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,198 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,198 INFO t.GuessANumber [Thread-3] Thread-3 guesses 22
+2023-01-26 17:38:51,199 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,199 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,199 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,199 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,199 INFO t.GuessANumber [Thread-3] Thread-3 guesses 24
+2023-01-26 17:38:51,199 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,199 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,200 INFO t.GuessANumber [Thread-3] Thread-3 guesses 58
+2023-01-26 17:38:51,200 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,200 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,202 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,202 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,204 INFO t.GuessANumber [Thread-3] Thread-3 guesses 23
+2023-01-26 17:38:51,204 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,204 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,204 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,205 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,207 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,207 INFO t.GuessANumber [Thread-3] Thread-3 guesses 32
+2023-01-26 17:38:51,207 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,208 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,208 INFO t.GuessANumber [Thread-3] Thread-3 guesses 74
+2023-01-26 17:38:51,208 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,208 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,208 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,208 INFO t.GuessANumber [Thread-3] Thread-3 guesses 2
+2023-01-26 17:38:51,208 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,208 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,209 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,209 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,209 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,209 INFO t.GuessANumber [Thread-3] Thread-3 guesses 28
+2023-01-26 17:38:51,209 INFO t.GuessANumber [Thread-3] Thread-3 guesses 15
+2023-01-26 17:38:51,209 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,209 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,209 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,209 INFO t.GuessANumber [Thread-3] Thread-3 guesses 29
+2023-01-26 17:38:51,209 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,209 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,209 INFO t.GuessANumber [Thread-3] Thread-3 guesses 81
+2023-01-26 17:38:51,209 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,209 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,209 INFO t.GuessANumber [Thread-3] Thread-3 guesses 71
+2023-01-26 17:38:51,209 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,209 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,209 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,209 INFO t.GuessANumber [Thread-3] Thread-3 guesses 91
+2023-01-26 17:38:51,210 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,210 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,210 INFO t.GuessANumber [Thread-3] Thread-3 guesses 81
+2023-01-26 17:38:51,210 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,210 INFO t.GuessANumber [Thread-3] Thread-3 guesses 14
+2023-01-26 17:38:51,210 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,210 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,210 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,210 INFO t.GuessANumber [Thread-3] Thread-3 guesses 30
+2023-01-26 17:38:51,210 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,210 INFO t.GuessANumber [Thread-3] Thread-3 guesses 76
+2023-01-26 17:38:51,210 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,210 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,210 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,210 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,210 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,210 INFO t.GuessANumber [Thread-3] Thread-3 guesses 58
+2023-01-26 17:38:51,211 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,211 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,211 INFO t.GuessANumber [Thread-3] Thread-3 guesses 85
+2023-01-26 17:38:51,211 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,211 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,211 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,211 INFO t.GuessANumber [Thread-3] Thread-3 guesses 19
+2023-01-26 17:38:51,211 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,212 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,212 INFO t.GuessANumber [Thread-3] Thread-3 guesses 72
+2023-01-26 17:38:51,213 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,213 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,213 INFO t.GuessANumber [Thread-3] Thread-3 guesses 91
+2023-01-26 17:38:51,216 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,216 INFO t.GuessANumber [Thread-3] Thread-3 guesses 85
+2023-01-26 17:38:51,216 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,216 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,216 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,216 INFO t.GuessANumber [Thread-3] Thread-3 guesses 4
+2023-01-26 17:38:51,217 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,219 INFO t.GuessANumber [Thread-3] Thread-3 guesses 96
+2023-01-26 17:38:51,219 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,218 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,220 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,220 INFO t.GuessANumber [Thread-3] Thread-3 guesses 61
+2023-01-26 17:38:51,220 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,220 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,220 INFO t.GuessANumber [Thread-3] Thread-3 guesses 44
+2023-01-26 17:38:51,220 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,220 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,220 INFO t.GuessANumber [Thread-3] Thread-3 guesses 29
+2023-01-26 17:38:51,220 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,220 INFO t.GuessANumber [Thread-3] Thread-3 guesses 60
+2023-01-26 17:38:51,220 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,220 INFO t.GuessANumber [Thread-3] Thread-3 guesses 81
+2023-01-26 17:38:51,220 INFO t.GuessANumber [Thread-3] Thread-3 guesses 43
+2023-01-26 17:38:51,220 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,220 INFO t.GuessANumber [Thread-3] Thread-3 guesses 26
+2023-01-26 17:38:51,220 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,221 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,221 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,221 INFO t.GuessANumber [Thread-3] Thread-3 guesses 86
+2023-01-26 17:38:51,224 INFO t.GuessANumber [Thread-3] Thread-3 guesses 93
+2023-01-26 17:38:51,224 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,224 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,225 INFO t.GuessANumber [Thread-3] Thread-3 guesses 38
+2023-01-26 17:38:51,225 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,225 INFO t.GuessANumber [Thread-3] Thread-3 guesses 18
+2023-01-26 17:38:51,225 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,225 INFO t.GuessANumber [Thread-3] Thread-3 guesses 34
+2023-01-26 17:38:51,225 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,225 INFO t.GuessANumber [Thread-3] Thread-3 guesses 49
+2023-01-26 17:38:51,225 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,225 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,225 INFO t.GuessANumber [Thread-3] Thread-3 guesses 49
+2023-01-26 17:38:51,225 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,225 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,225 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,225 INFO t.GuessANumber [Thread-3] Thread-3 guesses 57
+2023-01-26 17:38:51,225 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,225 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,225 INFO t.GuessANumber [Thread-3] Thread-3 guesses 93
+2023-01-26 17:38:51,225 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,225 INFO t.GuessANumber [Thread-3] Thread-3 guesses 21
+2023-01-26 17:38:51,226 INFO t.GuessANumber [Thread-3] Thread-3 guesses 38
+2023-01-26 17:38:51,225 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,226 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,226 INFO t.GuessANumber [Thread-3] Thread-3 guesses 42
+2023-01-26 17:38:51,226 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,227 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,227 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,227 INFO t.GuessANumber [Thread-3] Thread-3 guesses 79
+2023-01-26 17:38:51,230 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,230 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,230 INFO t.GuessANumber [Thread-3] Thread-3 guesses 52
+2023-01-26 17:38:51,231 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,232 INFO t.GuessANumber [Thread-3] Thread-3 guesses 51
+2023-01-26 17:38:51,232 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,236 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,236 INFO t.GuessANumber [Thread-3] Thread-3 guesses 33
+2023-01-26 17:38:51,236 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,238 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,238 INFO t.GuessANumber [Thread-3] Thread-3 guesses 79
+2023-01-26 17:38:51,238 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,238 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,238 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,238 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,238 INFO t.GuessANumber [Thread-3] Thread-3 guesses 92
+2023-01-26 17:38:51,238 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,238 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,238 INFO t.GuessANumber [Thread-3] Thread-3 guesses 46
+2023-01-26 17:38:51,238 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,238 INFO t.GuessANumber [Thread-3] Thread-3 guesses 53
+2023-01-26 17:38:51,238 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,239 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,239 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,239 INFO t.GuessANumber [Thread-3] Thread-3 guesses 68
+2023-01-26 17:38:51,239 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,239 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,239 INFO t.GuessANumber [Thread-3] Thread-3 guesses 45
+2023-01-26 17:38:51,239 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,239 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,239 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,240 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,240 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,240 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,240 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,240 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,240 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,240 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,240 INFO t.GuessANumber [Thread-3] Thread-3 guesses 91
+2023-01-26 17:38:51,241 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,241 INFO t.GuessANumber [Thread-3] Thread-3 guesses 96
+2023-01-26 17:38:51,241 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,241 INFO t.GuessANumber [Thread-3] Thread-3 guesses 24
+2023-01-26 17:38:51,241 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,242 INFO t.GuessANumber [Thread-3] Thread-3 guesses 92
+2023-01-26 17:38:51,242 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,243 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,244 INFO t.GuessANumber [Thread-3] Thread-3 guesses 79
+2023-01-26 17:38:51,244 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,244 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,245 INFO t.GuessANumber [Thread-3] Thread-3 guesses 77
+2023-01-26 17:38:51,245 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,245 INFO t.GuessANumber [Thread-3] Thread-3 guesses 77
+2023-01-26 17:38:51,245 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,245 INFO t.GuessANumber [Thread-3] Thread-3 guesses 72
+2023-01-26 17:38:51,245 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,245 INFO t.GuessANumber [Thread-3] Thread-3 guesses 73
+2023-01-26 17:38:51,245 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,245 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,245 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,245 INFO t.GuessANumber [Thread-3] Thread-3 guesses 52
+2023-01-26 17:38:51,246 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,246 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,246 INFO t.GuessANumber [Thread-3] Thread-3 guesses 20
+2023-01-26 17:38:51,248 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,247 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,261 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,261 INFO t.GuessANumber [Thread-3] Thread-3 guesses 92
+2023-01-26 17:38:51,262 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,271 INFO t.GuessANumber [Thread-3] Thread-3 guesses 66
+2023-01-26 17:38:51,272 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,272 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,272 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,272 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,273 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,273 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,273 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,273 INFO t.GuessANumber [Thread-3] Thread-3 guesses 18
+2023-01-26 17:38:51,273 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,273 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,273 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,273 INFO t.GuessANumber [Thread-3] Thread-3 guesses 26
+2023-01-26 17:38:51,274 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,274 INFO t.GuessANumber [Thread-3] Thread-3 guesses 23
+2023-01-26 17:38:51,274 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,274 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,274 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,274 INFO t.GuessANumber [Thread-3] Thread-3 guesses 86
+2023-01-26 17:38:51,274 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,274 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,274 INFO t.GuessANumber [Thread-3] Thread-3 guesses 40
+2023-01-26 17:38:51,274 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,275 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,275 INFO t.GuessANumber [Thread-3] Thread-3 guesses 4
+2023-01-26 17:38:51,275 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,275 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,276 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,276 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,277 INFO t.GuessANumber [Thread-3] Thread-3 guesses 67
+2023-01-26 17:38:51,277 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,277 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,278 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,279 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,279 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,279 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,279 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,279 INFO t.GuessANumber [Thread-3] Thread-3 guesses 4
+2023-01-26 17:38:51,279 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,279 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,279 INFO t.GuessANumber [Thread-3] Thread-3 guesses 83
+2023-01-26 17:38:51,279 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,279 INFO t.GuessANumber [Thread-3] Thread-3 guesses 94
+2023-01-26 17:38:51,279 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,279 INFO t.GuessANumber [Thread-3] Thread-3 guesses 46
+2023-01-26 17:38:51,279 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,279 INFO t.GuessANumber [Thread-3] Thread-3 guesses 16
+2023-01-26 17:38:51,279 INFO t.GuessANumber [Thread-3] Thread-3 guesses 46
+2023-01-26 17:38:51,279 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,279 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,279 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,279 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,279 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,279 INFO t.GuessANumber [Thread-3] Thread-3 guesses 33
+2023-01-26 17:38:51,279 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,279 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,280 INFO t.GuessANumber [Thread-3] Thread-3 guesses 37
+2023-01-26 17:38:51,280 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,280 INFO t.GuessANumber [Thread-3] Thread-3 guesses 97
+2023-01-26 17:38:51,280 INFO t.GuessANumber [Thread-3] Thread-3 guesses 61
+2023-01-26 17:38:51,280 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,280 INFO t.GuessANumber [Thread-3] Thread-3 guesses 36
+2023-01-26 17:38:51,281 INFO t.GuessANumber [Thread-3] Thread-3 guesses 81
+2023-01-26 17:38:51,285 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,285 INFO t.GuessANumber [Thread-3] Thread-3 guesses 4
+2023-01-26 17:38:51,285 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,295 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,295 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,296 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,295 INFO t.GuessANumber [Thread-3] Thread-3 guesses 95
+2023-01-26 17:38:51,296 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,296 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,296 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,296 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,296 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,296 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,296 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,297 INFO t.GuessANumber [Thread-3] Thread-3 guesses 86
+2023-01-26 17:38:51,296 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,297 INFO t.GuessANumber [Thread-3] Thread-3 guesses 58
+2023-01-26 17:38:51,297 INFO t.GuessANumber [Thread-3] Thread-3 guesses 50
+2023-01-26 17:38:51,297 INFO t.GuessANumber [Thread-3] Thread-3 guesses 30
+2023-01-26 17:38:51,297 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,297 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,297 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,297 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,297 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,297 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,297 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,297 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,297 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,297 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,297 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,297 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,297 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,298 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,298 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,298 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,298 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,298 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,298 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,298 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,298 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,298 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,298 INFO t.GuessANumber [Thread-3] Thread-3 guesses 88
+2023-01-26 17:38:51,298 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,298 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,298 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,298 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,298 INFO t.GuessANumber [Thread-3] Thread-3 guesses 54
+2023-01-26 17:38:51,298 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,298 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,298 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,298 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,297 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,298 INFO t.GuessANumber [Thread-3] Thread-3 guesses 33
+2023-01-26 17:38:51,299 INFO t.GuessANumber [Thread-3] Thread-3 guesses 10
+2023-01-26 17:38:51,299 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,299 INFO t.GuessANumber [Thread-3] Thread-3 guesses 76
+2023-01-26 17:38:51,299 INFO t.GuessANumber [Thread-3] Thread-3 guesses 76
+2023-01-26 17:38:51,299 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,299 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,299 INFO t.GuessANumber [Thread-3] Thread-3 guesses 22
+2023-01-26 17:38:51,299 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,299 INFO t.GuessANumber [Thread-3] Thread-3 guesses 60
+2023-01-26 17:38:51,300 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,300 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,302 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,302 INFO t.GuessANumber [Thread-3] Thread-3 guesses 61
+2023-01-26 17:38:51,302 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,307 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,307 INFO t.GuessANumber [Thread-3] Thread-3 guesses 60
+2023-01-26 17:38:51,307 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,308 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,308 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,309 INFO t.GuessANumber [Thread-3] Thread-3 guesses 52
+2023-01-26 17:38:51,309 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,309 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,309 INFO t.GuessANumber [Thread-3] Thread-3 guesses 20
+2023-01-26 17:38:51,309 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,309 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,309 INFO t.GuessANumber [Thread-3] Thread-3 guesses 83
+2023-01-26 17:38:51,309 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,310 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,310 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,310 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,310 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,310 INFO t.GuessANumber [Thread-3] Thread-3 guesses 4
+2023-01-26 17:38:51,310 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,310 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,310 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,310 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,310 INFO t.GuessANumber [Thread-3] Thread-3 guesses 54
+2023-01-26 17:38:51,310 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,310 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,310 INFO t.GuessANumber [Thread-3] Thread-3 guesses 37
+2023-01-26 17:38:51,310 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,310 INFO t.GuessANumber [Thread-3] Thread-3 guesses 44
+2023-01-26 17:38:51,310 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,310 INFO t.GuessANumber [Thread-3] Thread-3 guesses 2
+2023-01-26 17:38:51,310 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,310 INFO t.GuessANumber [Thread-3] Thread-3 guesses 58
+2023-01-26 17:38:51,310 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,310 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,310 INFO t.GuessANumber [Thread-3] Thread-3 guesses 50
+2023-01-26 17:38:51,310 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,310 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,310 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,310 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,310 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,310 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,310 INFO t.GuessANumber [Thread-3] Thread-3 guesses 39
+2023-01-26 17:38:51,310 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,310 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,310 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,310 INFO t.GuessANumber [Thread-3] Thread-3 guesses 98
+2023-01-26 17:38:51,310 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,311 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,311 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,311 INFO t.GuessANumber [Thread-3] Thread-3 guesses 2
+2023-01-26 17:38:51,311 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,311 INFO t.GuessANumber [Thread-3] Thread-3 guesses 32
+2023-01-26 17:38:51,311 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,311 INFO t.GuessANumber [Thread-3] Thread-3 guesses 69
+2023-01-26 17:38:51,311 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,311 INFO t.GuessANumber [Thread-3] Thread-3 guesses 80
+2023-01-26 17:38:51,311 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,311 INFO t.GuessANumber [Thread-3] Thread-3 guesses 6
+2023-01-26 17:38:51,311 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,311 INFO t.GuessANumber [Thread-3] Thread-3 guesses 37
+2023-01-26 17:38:51,311 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,311 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,311 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,311 INFO t.GuessANumber [Thread-3] Thread-3 guesses 42
+2023-01-26 17:38:51,311 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,311 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,311 INFO t.GuessANumber [Thread-3] Thread-3 guesses 36
+2023-01-26 17:38:51,311 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,311 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,312 INFO t.GuessANumber [Thread-3] Thread-3 guesses 65
+2023-01-26 17:38:51,312 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,312 INFO t.GuessANumber [Thread-3] Thread-3 guesses 73
+2023-01-26 17:38:51,312 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,312 INFO t.GuessANumber [Thread-3] Thread-3 guesses 23
+2023-01-26 17:38:51,312 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,312 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,312 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,312 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,313 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,313 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,314 INFO t.GuessANumber [Thread-3] Thread-3 guesses 45
+2023-01-26 17:38:51,316 INFO t.GuessANumber [Thread-3] Thread-3 guesses 30
+2023-01-26 17:38:51,316 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,315 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,316 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,316 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,316 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,316 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,316 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,316 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,316 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,316 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,316 INFO t.GuessANumber [Thread-3] Thread-3 guesses 38
+2023-01-26 17:38:51,316 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,316 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,316 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,316 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,316 INFO t.GuessANumber [Thread-3] Thread-3 guesses 81
+2023-01-26 17:38:51,316 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,316 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,316 INFO t.GuessANumber [Thread-3] Thread-3 guesses 34
+2023-01-26 17:38:51,316 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,317 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,317 INFO t.GuessANumber [Thread-3] Thread-3 guesses 91
+2023-01-26 17:38:51,317 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,317 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,317 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,317 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,317 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,317 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,317 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,317 INFO t.GuessANumber [Thread-3] Thread-3 guesses 23
+2023-01-26 17:38:51,317 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,317 INFO t.GuessANumber [Thread-3] Thread-3 guesses 81
+2023-01-26 17:38:51,317 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,317 INFO t.GuessANumber [Thread-3] Thread-3 guesses 57
+2023-01-26 17:38:51,317 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,317 INFO t.GuessANumber [Thread-3] Thread-3 guesses 57
+2023-01-26 17:38:51,317 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,317 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,317 INFO t.GuessANumber [Thread-3] Thread-3 guesses 40
+2023-01-26 17:38:51,317 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,317 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,317 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,318 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,318 INFO t.GuessANumber [Thread-3] Thread-3 guesses 79
+2023-01-26 17:38:51,322 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,322 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,322 INFO t.GuessANumber [Thread-3] Thread-3 guesses 37
+2023-01-26 17:38:51,328 INFO t.GuessANumber [Thread-3] Thread-3 guesses 79
+2023-01-26 17:38:51,328 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,327 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,328 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,328 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,328 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,328 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,328 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,328 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,328 INFO t.GuessANumber [Thread-3] Thread-3 guesses 48
+2023-01-26 17:38:51,328 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,328 INFO t.GuessANumber [Thread-3] Thread-3 guesses 20
+2023-01-26 17:38:51,328 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,328 INFO t.GuessANumber [Thread-3] Thread-3 guesses 16
+2023-01-26 17:38:51,328 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,328 INFO t.GuessANumber [Thread-3] Thread-3 guesses 85
+2023-01-26 17:38:51,328 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,328 INFO t.GuessANumber [Thread-3] Thread-3 guesses 81
+2023-01-26 17:38:51,328 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,328 INFO t.GuessANumber [Thread-3] Thread-3 guesses 99
+2023-01-26 17:38:51,328 INFO t.GuessANumber [Thread-3] Thread-3 guesses 88
+2023-01-26 17:38:51,328 INFO t.GuessANumber [Thread-3] Thread-3 guesses 24
+2023-01-26 17:38:51,328 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,329 INFO t.GuessANumber [Thread-3] Thread-3 guesses 30
+2023-01-26 17:38:51,328 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,329 INFO t.GuessANumber [Thread-3] Thread-3 guesses 37
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,329 INFO t.GuessANumber [Thread-3] Thread-3 guesses 58
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,329 INFO t.GuessANumber [Thread-3] Thread-3 guesses 44
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,329 INFO t.GuessANumber [Thread-3] Thread-3 guesses 40
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,329 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,330 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,330 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,330 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,330 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,330 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,330 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,330 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,330 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,330 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,330 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,330 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,330 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,330 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,330 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,330 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,330 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,330 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,330 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,334 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,334 INFO t.GuessANumber [Thread-3] Thread-3 guesses 72
+2023-01-26 17:38:51,334 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,334 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,334 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,334 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,334 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,334 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,334 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,334 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,334 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,334 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,334 INFO t.GuessANumber [Thread-3] Thread-3 guesses 52
+2023-01-26 17:38:51,334 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,334 INFO t.GuessANumber [Thread-3] Thread-3 guesses 78
+2023-01-26 17:38:51,334 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,334 INFO t.GuessANumber [Thread-3] Thread-3 guesses 75
+2023-01-26 17:38:51,334 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,335 INFO t.GuessANumber [Thread-3] ** Wow, Correct!Thread-3in191guesses.**
+2023-01-26 17:38:51,334 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,335 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,335 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,335 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,335 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,335 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,335 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,335 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,335 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,335 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,335 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,335 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,335 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,335 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,335 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,335 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,335 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,335 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,335 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,335 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,335 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,335 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,335 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,335 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,335 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,336 INFO t.RunnableDisplayMessage [hello] Hello
+2023-01-26 17:38:51,337 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,341 INFO t.RunnableDisplayMessage [Thread-1] GoodBye
+2023-01-26 17:38:51,341 INFO t.RunnableDisplayMessage [hello] Hello

@@ -1,0 +1,13 @@
+[ {
+  "id" : 1,
+  "Delivery_Address" : "chavchavadze str 3",
+  "Delivery_Status" : "prepearing",
+  "Purchase_Cost" : "123 gel",
+  "Purchase_Status" : "purchased"
+}, {
+  "id" : 2,
+  "Delivery_Address" : "tbilisi pekini str 2",
+  "Delivery_Status" : "ready for delivery",
+  "Purchase_Cost" : "234gel",
+  "Purchase_Status" : "filed"
+} ]

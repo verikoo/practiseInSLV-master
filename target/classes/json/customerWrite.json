@@ -1,0 +1,29 @@
+[ {
+  "Name" : "Nick",
+  "Surname" : "Stiuart",
+  "Contact_Number" : "+902-12-33-99",
+  "Email" : "email@example.com",
+  "Address" : "ckhakaia str 23",
+  "Purchase_History" : "no hist"
+}, {
+  "Name" : "Steven",
+  "Surname" : "Cyrus",
+  "Contact_Number" : "+901-88-66-77-44",
+  "Email" : "cyrus@example.com",
+  "Address" : "tavartqiladze str 1",
+  "Purchase_History" : "no hist"
+}, {
+  "Name" : "Jhon",
+  "Surname" : "Doe",
+  "Contact_Number" : "555-555-5555",
+  "Email" : "johndoe@example.com",
+  "Address" : "123 Main St, Anytown USA",
+  "Purchase_History" : "no hist"
+}, {
+  "Name" : "Jane",
+  "Surname" : "Smith",
+  "Contact_Number" : "555-555-5555",
+  "Email" : "janesmith@example.com",
+  "Address" : "456 Park Ave, Anycity USA",
+  "Purchase_History" : "no hist"
+} ]

@@ -1,0 +1,92 @@
+2023-01-23 20:11:58,754 INFO x.SAXExample$1 [main] Start ElementCustomers
+2023-01-23 20:11:58,759 INFO x.SAXExample$1 [main] Start ElementCustomer
+2023-01-23 20:11:58,759 INFO x.SAXExample$1 [main] Start ElementName
+2023-01-23 20:11:58,759 INFO x.SAXExample$1 [main] Name: Veriko
+2023-01-23 20:11:58,759 INFO x.SAXExample$1 [main] End element Name
+2023-01-23 20:11:58,759 INFO x.SAXExample$1 [main] Start ElementSurname
+2023-01-23 20:11:58,761 INFO x.SAXExample$1 [main] Surname Lomadze
+2023-01-23 20:11:58,761 INFO x.SAXExample$1 [main] End element Surname
+2023-01-23 20:11:58,763 INFO x.SAXExample$1 [main] Start ElementContact_Number
+2023-01-23 20:11:58,763 INFO x.SAXExample$1 [main] End element Contact_Number
+2023-01-23 20:11:58,764 INFO x.SAXExample$1 [main] Start ElementEmail
+2023-01-23 20:11:58,764 INFO x.SAXExample$1 [main] Email :veriko@example.com
+2023-01-23 20:11:58,764 INFO x.SAXExample$1 [main] End element Email
+2023-01-23 20:11:58,765 INFO x.SAXExample$1 [main] Start ElementAddress
+2023-01-23 20:11:58,766 INFO x.SAXExample$1 [main] End element Address
+2023-01-23 20:11:58,766 INFO x.SAXExample$1 [main] Start ElementPurchase_History
+2023-01-23 20:11:58,766 INFO x.SAXExample$1 [main] Purchase_History no hist
+2023-01-23 20:11:58,767 INFO x.SAXExample$1 [main] End element Purchase_History
+2023-01-23 20:11:58,767 INFO x.SAXExample$1 [main] End element Customer
+2023-01-23 20:11:58,767 INFO x.SAXExample$1 [main] Start ElementCustomer
+2023-01-23 20:11:58,767 INFO x.SAXExample$1 [main] Start ElementName
+2023-01-23 20:11:58,768 INFO x.SAXExample$1 [main] Name: Maria
+2023-01-23 20:11:58,768 INFO x.SAXExample$1 [main] End element Name
+2023-01-23 20:11:58,768 INFO x.SAXExample$1 [main] Start ElementSurname
+2023-01-23 20:11:58,768 INFO x.SAXExample$1 [main] Surname Lobzjanidze
+2023-01-23 20:11:58,771 INFO x.SAXExample$1 [main] End element Surname
+2023-01-23 20:11:58,771 INFO x.SAXExample$1 [main] Start ElementContact_Number
+2023-01-23 20:11:58,771 INFO x.SAXExample$1 [main] End element Contact_Number
+2023-01-23 20:11:58,772 INFO x.SAXExample$1 [main] Start ElementEmail
+2023-01-23 20:11:58,772 INFO x.SAXExample$1 [main] Email :Maria@example.com
+2023-01-23 20:11:58,772 INFO x.SAXExample$1 [main] End element Email
+2023-01-23 20:11:58,774 INFO x.SAXExample$1 [main] Start ElementAddress
+2023-01-23 20:11:58,775 INFO x.SAXExample$1 [main] End element Address
+2023-01-23 20:11:58,776 INFO x.SAXExample$1 [main] Start ElementPurchase_History
+2023-01-23 20:11:58,777 INFO x.SAXExample$1 [main] Purchase_History no hist
+2023-01-23 20:11:58,777 INFO x.SAXExample$1 [main] End element Purchase_History
+2023-01-23 20:11:58,778 INFO x.SAXExample$1 [main] End element Customer
+2023-01-23 20:11:58,778 INFO x.SAXExample$1 [main] Start ElementCustomer
+2023-01-23 20:11:58,779 INFO x.SAXExample$1 [main] Start ElementName
+2023-01-23 20:11:58,780 INFO x.SAXExample$1 [main] Name: Salome
+2023-01-23 20:11:58,780 INFO x.SAXExample$1 [main] End element Name
+2023-01-23 20:11:58,780 INFO x.SAXExample$1 [main] Start ElementSurname
+2023-01-23 20:11:58,781 INFO x.SAXExample$1 [main] Surname Sebiskveradze
+2023-01-23 20:11:58,781 INFO x.SAXExample$1 [main] End element Surname
+2023-01-23 20:11:58,781 INFO x.SAXExample$1 [main] Start ElementContact_Number
+2023-01-23 20:11:58,782 INFO x.SAXExample$1 [main] End element Contact_Number
+2023-01-23 20:11:58,783 INFO x.SAXExample$1 [main] Start ElementEmail
+2023-01-23 20:11:58,783 INFO x.SAXExample$1 [main] Email :Salome@example.com
+2023-01-23 20:11:58,783 INFO x.SAXExample$1 [main] End element Email
+2023-01-23 20:11:58,784 INFO x.SAXExample$1 [main] Start ElementAddress
+2023-01-23 20:11:58,784 INFO x.SAXExample$1 [main] End element Address
+2023-01-23 20:11:58,784 INFO x.SAXExample$1 [main] Start ElementPurchase_History
+2023-01-23 20:11:58,784 INFO x.SAXExample$1 [main] Purchase_History no hist
+2023-01-23 20:11:58,785 INFO x.SAXExample$1 [main] End element Purchase_History
+2023-01-23 20:11:58,786 INFO x.SAXExample$1 [main] End element Customer
+2023-01-23 20:11:58,786 INFO x.SAXExample$1 [main] Start ElementCustomer
+2023-01-23 20:11:58,786 INFO x.SAXExample$1 [main] Start ElementName
+2023-01-23 20:11:58,786 INFO x.SAXExample$1 [main] Name: Nika
+2023-01-23 20:11:58,786 INFO x.SAXExample$1 [main] End element Name
+2023-01-23 20:11:58,787 INFO x.SAXExample$1 [main] Start ElementSurname
+2023-01-23 20:11:58,787 INFO x.SAXExample$1 [main] Surname JOnes
+2023-01-23 20:11:58,787 INFO x.SAXExample$1 [main] End element Surname
+2023-01-23 20:11:58,788 INFO x.SAXExample$1 [main] Start ElementContact_Number
+2023-01-23 20:11:58,789 INFO x.SAXExample$1 [main] End element Contact_Number
+2023-01-23 20:11:58,790 INFO x.SAXExample$1 [main] Start ElementEmail
+2023-01-23 20:11:58,791 INFO x.SAXExample$1 [main] Email :Nika@example.com
+2023-01-23 20:11:58,792 INFO x.SAXExample$1 [main] End element Email
+2023-01-23 20:11:58,792 INFO x.SAXExample$1 [main] Start ElementAddress
+2023-01-23 20:11:58,792 INFO x.SAXExample$1 [main] End element Address
+2023-01-23 20:11:58,793 INFO x.SAXExample$1 [main] Start ElementPurchase_History
+2023-01-23 20:11:58,793 INFO x.SAXExample$1 [main] Purchase_History no hist
+2023-01-23 20:11:58,793 INFO x.SAXExample$1 [main] End element Purchase_History
+2023-01-23 20:11:58,794 INFO x.SAXExample$1 [main] End element Customer
+2023-01-23 20:11:58,794 INFO x.SAXExample$1 [main] Start ElementCustomer
+2023-01-23 20:11:58,794 INFO x.SAXExample$1 [main] Start ElementName
+2023-01-23 20:11:58,794 INFO x.SAXExample$1 [main] Name: Beka
+2023-01-23 20:11:58,794 INFO x.SAXExample$1 [main] End element Name
+2023-01-23 20:11:58,796 INFO x.SAXExample$1 [main] Start ElementSurname
+2023-01-23 20:11:58,798 INFO x.SAXExample$1 [main] Surname Kvaranchxiladze
+2023-01-23 20:11:58,798 INFO x.SAXExample$1 [main] End element Surname
+2023-01-23 20:11:58,798 INFO x.SAXExample$1 [main] Start ElementContact_Number
+2023-01-23 20:11:58,798 INFO x.SAXExample$1 [main] End element Contact_Number
+2023-01-23 20:11:58,799 INFO x.SAXExample$1 [main] Start ElementEmail
+2023-01-23 20:11:58,799 INFO x.SAXExample$1 [main] Email :beka@example.com
+2023-01-23 20:11:58,799 INFO x.SAXExample$1 [main] End element Email
+2023-01-23 20:11:58,799 INFO x.SAXExample$1 [main] Start ElementAddress
+2023-01-23 20:11:58,799 INFO x.SAXExample$1 [main] End element Address
+2023-01-23 20:11:58,800 INFO x.SAXExample$1 [main] Start ElementPurchase_History
+2023-01-23 20:11:58,800 INFO x.SAXExample$1 [main] Purchase_History no hist
+2023-01-23 20:11:58,800 INFO x.SAXExample$1 [main] End element Purchase_History
+2023-01-23 20:11:58,801 INFO x.SAXExample$1 [main] End element Customer
+2023-01-23 20:11:58,801 INFO x.SAXExample$1 [main] End element Customers

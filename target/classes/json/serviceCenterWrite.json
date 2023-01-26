@@ -1,0 +1,8 @@
+[ {
+  "id" : 1,
+  "Center_Name" : "Service center in batumi",
+  "Center_Address" : "batumi zubalashbili str 3",
+  "Contact_Number" : "+234-342-22",
+  "Address" : "main address",
+  "Email" : "service@example.com"
+} ]
