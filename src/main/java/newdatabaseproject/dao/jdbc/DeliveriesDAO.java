@@ -10,7 +10,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DeliveriesDAO implements IDeliveriesDAO {
+public class DeliveriesDAO extends MySqlDao implements IDeliveriesDAO {
     private final static Logger LOGGER = LogManager.getLogger(DeliveriesDAO.class);
 
 
@@ -52,10 +52,13 @@ public class DeliveriesDAO implements IDeliveriesDAO {
         PreparedStatement preparedStatement = null;
         try{
             preparedStatement = connection.prepareStatement("INSERT INTO Deliveries(id, Delivery_Address, Delivery_Status,Purchase_Cost, Purchase_Status)VALUES(?,?,?,?,?)");
-            preparedStatement.setString(1,object.getDeliveryAddress());
-            preparedStatement.setString(2,object.getDeliveryStatus());
-            preparedStatement.setString(3, object.getPurchaseCost());
-            preparedStatement.setString(4, object.getPurchaseStatus());
+            preparedStatement.setLong(1,object.getId());
+            preparedStatement.setString(2,object.getDeliveryAddress());
+            preparedStatement.setString(3,object.getDeliveryStatus());
+            preparedStatement.setString(4, object.getPurchaseCost());
+            preparedStatement.setString(5, object.getPurchaseStatus());
+            preparedStatement.executeUpdate();
+            LOGGER.info("inserted successfully");
         }catch (SQLException e){
             LOGGER.error(e);
         }finally {
@@ -80,7 +83,7 @@ public class DeliveriesDAO implements IDeliveriesDAO {
         preparedStatement.setString(2, object.getDeliveryStatus());
         preparedStatement.setString(3,object.getPurchaseCost());
         preparedStatement.setString(4, object.getPurchaseStatus());
-
+        preparedStatement.executeUpdate();
         LOGGER.info("Updated Successfully");
     }catch(SQLException e){
         LOGGER.error(e);
@@ -129,7 +132,7 @@ public class DeliveriesDAO implements IDeliveriesDAO {
         ResultSet resultSet = null;
         try{
             statement = connection.createStatement();
-            resultSet = statement.executeQuery("SELECT FROM Deliveries");
+            resultSet = statement.executeQuery("SELECT * FROM Deliveries");
             while(resultSet.next()){
                 Deliveries deliveries = new Deliveries();
 

@@ -38,10 +38,10 @@ public class Inventory {
 
     @Override
     public String toString() {
-        return "Deliveries{" +
+        return "Inventory{" +
                 "id=" + id +
-                ", quantity='" + quantity + '\'' +
-                ", quantity=" + quantity +
+                ", Quantity='" + quantity + '\'' +
+                ", Inventorycol='" + inventorycol +
                 '}';
     }
 }

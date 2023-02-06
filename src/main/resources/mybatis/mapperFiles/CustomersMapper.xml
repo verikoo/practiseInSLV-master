@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE mapper PUBLIC '-//mybatis.org//DTD Mapper 3.0//EN'
+        'http://mybatis.org/dtd/mybatis-3-mapper.dtd'>
+
+<mapper namespace="newdatabaseproject.dao.interfaces.ICustomersDAO">
+
+    <select id="getById" parameterType="Long" resultMap="ResultForCustomers">
+        SELECT * FROM Customers WHERE id =#{id}
+    </select>
+
+    <resultMap id="ResultForCustomers" type="Customers">
+        <id property="id" column="id"/>
+        <result property="name" column="Name"/>
+        <result property="surname" column="Surname"/>
+        <result property="contactNumber" column="Contact_Number"/>
+        <result property="email" column="Email"/>
+        <result property="address" column="Address"/>
+        <result property="purchaseHistory" column="Purchase_History"/>
+    </resultMap>
+
+    <select id="getAllCustomers"  resultMap="ResultForCustomers">
+        SELECT * FROM Customers
+    </select>
+    
+    <insert id="insert" parameterType="Customers">
+        INSERT INTO Customers(id, Name, Surname,Contact_Number, Email, Address,Purchase_History )
+        VALUES (#{id},  #{name}, #{surName}, #{contactNumber}, #{email}, #{address}, #{purchaseHistory})
+    </insert>
+
+    <update id="update" parameterType="Customers">
+        UPDATE Customers
+        SET
+        name = #{name},
+        surName = #{surName},
+        Contact_Number = #{contactNumber},
+        Email = #{email},
+        Address = #{address},
+        Purchase_History = #{purchaseHist},
+        WHERE id = #{id}
+    </update>
+
+    <delete id="delete" parameterType="Long">
+        DELETE FROM Customers WHERE id=#{id}
+    </delete>
+</mapper>

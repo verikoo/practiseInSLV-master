@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC '-//mybatis.org//DTD Mapper 3.0//EN'
+        'http://mybatis.org/dtd/mybatis-3-mapper.dtd'>
+<mapper namespace="newdatabaseproject.dao.interfaces.IDeliveriesDAO">
+    <select id="getById" parameterType="Long" resultMap="ResultForDeliveries">
+        SELECT * FROM Deliveries WHERE id =#{id}
+    </select>
+
+    <resultMap id="ResultForDeliveries" type="Deliveries">
+        <id property="id" column="id"/>
+        <result property="deliveryAddress" column="Delivery_Address"/>
+        <result property="deliveryStatus" column="Delivery_Status"/>
+        <result property="purchaseCost" column="Purchase_Cost"/>
+        <result property="purchaseStatus" column="Purchase_Status"/>
+    </resultMap>
+
+    <insert id="insert" parameterType="Deliveries" keyProperty="id">
+        INSERT INTO Deliveries(id,Delivery_Status, Delivery_Address,  Purchase_Cost, Purchase_Status )
+        VALUES(#{id}, #{deliveryStatus}, #{deliveryAddress}, #{purchaseCost}, #{purchaseStatus})
+    </insert>
+
+    <delete id="delete" parameterType="Long">
+        DELETE FROM Deliveries WHERE id = #{ID}
+    </delete>
+
+    <update id="update" parameterType="Deliveries">
+        UPDATE Deliveries
+        SET id = #{id},
+        Delivery_Status = #{deliveryStatus},
+        Delivery_Address = #{deliveryAddress},
+        Purchase_Cost = #{purchaseCost},
+        Purchase_Status = #{purchaseStatus}
+        WHERE id = #{id}
+    </update>
+</mapper>

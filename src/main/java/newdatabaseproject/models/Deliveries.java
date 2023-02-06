@@ -2,8 +2,8 @@ package newdatabaseproject.models;
 
 public class Deliveries {
     private Long id;
-    private String deliveryAddress;
     private String deliveryStatus;
+    private String deliveryAddress;
     private String purchaseCost;
     private String purchaseStatus;
 

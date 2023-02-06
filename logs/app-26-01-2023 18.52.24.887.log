@@ -1,4 +1,0 @@
-2023-01-26 18:52:25,159 INFO j.u.ArrayList [main] Animal{AnimalList=LION, AnimalType='MAMMAL', FoodType='CARNIVORE', LivingType=TERRESTRIAL, year=3, name=Ari}
-2023-01-26 18:52:25,162 INFO j.u.ArrayList [main] Animal{AnimalList=BEAR, AnimalType='MAMMAL', FoodType='OMNIVORE', LivingType=TERRESTRIAL, year=10, name=Drago}
-2023-01-26 18:52:25,162 INFO j.u.ArrayList [main] Animal{AnimalList=PENGUIN, AnimalType='MAMMAL', FoodType='PISCIVORE', LivingType=AQUATIC, year=20, name=Pingo}
-2023-01-26 18:52:25,162 INFO s.StreamMain [main] [Animal{AnimalList=LION, AnimalType='MAMMAL', FoodType='CARNIVORE', LivingType=TERRESTRIAL, year=3, name=Ari}, Animal{AnimalList=BEAR, AnimalType='MAMMAL', FoodType='OMNIVORE', LivingType=TERRESTRIAL, year=10, name=Drago}, Animal{AnimalList=PENGUIN, AnimalType='MAMMAL', FoodType='PISCIVORE', LivingType=AQUATIC, year=20, name=Pingo}]

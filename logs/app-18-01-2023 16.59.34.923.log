@@ -1,2 +1,0 @@
-2023-01-18 16:59:35,970 INFO n.d.c.ConnectionPool [main] The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@52d645b1
-2023-01-18 16:59:35,997 ERROR n.d.j.CustomersDAO [main] java.sql.SQLSyntaxErrorException: Table 'mydb.customer' doesn't exist

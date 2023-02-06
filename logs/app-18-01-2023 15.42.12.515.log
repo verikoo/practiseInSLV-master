@@ -1,5 +1,0 @@
-2023-01-18 15:42:12,814 INFO n.d.c.ConnectionPool [main] java.sql.SQLException: No suitable driver found for "jdbc:mysql://127.0.0.1:3306/?user=user1"
-2023-01-18 15:42:12,817 INFO n.d.c.ConnectionPool [main] java.sql.SQLException: No suitable driver found for "jdbc:mysql://127.0.0.1:3306/?user=user1"
-2023-01-18 15:42:12,817 INFO n.d.c.ConnectionPool [main] java.sql.SQLException: No suitable driver found for "jdbc:mysql://127.0.0.1:3306/?user=user1"
-2023-01-18 15:42:12,818 INFO n.d.c.ConnectionPool [main] java.sql.SQLException: No suitable driver found for "jdbc:mysql://127.0.0.1:3306/?user=user1"
-2023-01-18 15:42:12,818 INFO n.d.c.ConnectionPool [main] java.sql.SQLException: No suitable driver found for "jdbc:mysql://127.0.0.1:3306/?user=user1"

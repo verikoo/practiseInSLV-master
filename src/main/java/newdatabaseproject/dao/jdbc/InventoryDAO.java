@@ -10,7 +10,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class InventoryDAO implements IInventoryDAO {
+public class InventoryDAO extends MySqlDao implements IInventoryDAO {
     private final static Logger LOGGER = LogManager.getLogger(InventoryDAO.class);
 
     @Override
@@ -50,8 +50,11 @@ public class InventoryDAO implements IInventoryDAO {
 
         try{
             preparedStatement= connection.prepareStatement("INSERT INTO Inventory(id, Quantity, Inventorycol) VALUES(?,?,?)");
-            preparedStatement.setString(1,object.getQuantity());
-            preparedStatement.setString(2,object.getInventorycol());
+            preparedStatement.setLong(1,object.getId());
+            preparedStatement.setString(2,object.getQuantity());
+            preparedStatement.setString(3,object.getInventorycol());
+            preparedStatement.executeUpdate();
+            LOGGER.info("inserted successfully");
         }catch(SQLException e){
             LOGGER.error(e);
         }finally {
@@ -75,6 +78,7 @@ public class InventoryDAO implements IInventoryDAO {
             preparedStatement= connection.prepareStatement("UPDATE Customers SET Quantity =?, Inventorycol =? ");
             preparedStatement.setString(1,object.getQuantity());
             preparedStatement.setString(2,object.getInventorycol());
+            preparedStatement.executeUpdate();
             LOGGER.info("Updated Successfully");
         }catch(SQLException e){
             LOGGER.error(e);
@@ -97,6 +101,7 @@ public class InventoryDAO implements IInventoryDAO {
             preparedStatement = connection.prepareStatement("DELETE FROM Inventory WHERE id = ?");
             preparedStatement.setLong(1,id);
             preparedStatement.executeUpdate();
+            LOGGER.info("Deleted successfully");
         }catch(SQLException e){
             LOGGER.error(e);
         }finally {
@@ -125,6 +130,7 @@ public class InventoryDAO implements IInventoryDAO {
                 inventory.setId(resultSet.getLong("id"));
                 inventory.setQuantity(resultSet.getString("Quantity"));
                 inventory.setInventorycol(resultSet.getString("Inventorycol"));
+                inventoryList.add(inventory);
             }
         }catch(SQLException e){
             LOGGER.error(e);

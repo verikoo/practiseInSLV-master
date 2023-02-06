@@ -1,1 +1,0 @@
-2023-01-23 16:17:14,522 INFO x.j.XmlToObject [main] Customers{id=1, Name='custoemr1', Surname='bregvadze', Contact_Number=+900-34-32-111, Email='email@example.com', Address='asatiani str 12', Purchase_History=no hist}

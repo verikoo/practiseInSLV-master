@@ -1,4 +1,0 @@
-2022-12-05 20:03:51,500 DEBUG LoggerClass [main] debug
-2022-12-05 20:03:51,503 INFO LoggerClass [main] info
-2022-12-05 20:03:51,503 WARN LoggerClass [main] warn
-2022-12-05 20:03:51,503 ERROR LoggerClass [main] error

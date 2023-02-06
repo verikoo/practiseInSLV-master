@@ -21,7 +21,8 @@ public class Customers {
     @JsonProperty("Purchase_History")
     private String purchaseHistory;
 
-    Customers(){}
+    Customers() {
+    }
 
     public Customers(String name, String surname, String contactNumber, String email, String address, String purchaseHistory) {
         this.name = name;
@@ -32,13 +33,13 @@ public class Customers {
         this.purchaseHistory = purchaseHistory;
     }
 
-    public Customers(String name, String surname, String contactNumber, String email, String purchaseHistory) {
-        this.name = name;
-        this.surname = surname;
-        this.contactNumber = contactNumber;
-        this.email = email;
-        this.purchaseHistory = purchaseHistory;
-    }
+//    public Customers(String name, String surname, String contactNumber, String email, String purchaseHistory) {
+//        this.name = name;
+//        this.surname = surname;
+//        this.contactNumber = contactNumber;
+//        this.email = email;
+//        this.purchaseHistory = purchaseHistory;
+//    }
 
     public String getName() {
         return name;
@@ -89,7 +90,7 @@ public class Customers {
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return "Customers{" +
                 ", Name='" + name + '\'' +
                 ", Surname='" + surname + '\'' +

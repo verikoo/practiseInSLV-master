@@ -1,7 +1,0 @@
-2023-01-26 19:19:22,687 INFO j.u.ArrayList [main] Animal{AnimalList=LION, AnimalType='MAMMAL', FoodType='CARNIVORE', LivingType=TERRESTRIAL, year=3, name=Ari}
-2023-01-26 19:19:22,690 INFO j.u.ArrayList [main] Animal{AnimalList=BEAR, AnimalType='MAMMAL', FoodType='OMNIVORE', LivingType=TERRESTRIAL, year=10, name=Drago}
-2023-01-26 19:19:22,690 INFO j.u.ArrayList [main] Animal{AnimalList=PENGUIN, AnimalType='MAMMAL', FoodType='PISCIVORE', LivingType=AQUATIC, year=20, name=Pingo}
-2023-01-26 19:19:22,690 INFO s.StreamMain [main] [Animal{AnimalList=LION, AnimalType='MAMMAL', FoodType='CARNIVORE', LivingType=TERRESTRIAL, year=3, name=Ari}, Animal{AnimalList=BEAR, AnimalType='MAMMAL', FoodType='OMNIVORE', LivingType=TERRESTRIAL, year=10, name=Drago}, Animal{AnimalList=PENGUIN, AnimalType='MAMMAL', FoodType='PISCIVORE', LivingType=AQUATIC, year=20, name=Pingo}]
-2023-01-26 19:19:22,692 INFO j.l.Iterable [main] LION
-2023-01-26 19:19:22,693 INFO j.l.Iterable [main] BEAR
-2023-01-26 19:19:22,693 INFO j.l.Iterable [main] PENGUIN

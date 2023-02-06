@@ -18,7 +18,8 @@ public class Deliveries {
     @JsonProperty("Purchase_Status")
     private String purchStatus;
 
-    Deliveries(){}
+    Deliveries() {
+    }
 
     public Deliveries(long id, String delAddress, String delStatus, String purchCost, String purchStatus) {
         this.id = id;
@@ -69,12 +70,7 @@ public class Deliveries {
     }
 
     @Override
-    public String toString(){
-        return "Deliveries{" +"\n" +
-                "Delivery_Address=" + delAddress + "\n" +
-                "Delivery_Status='" + delStatus + "\n" +
-                "Purchase_Cost=" + purchCost + "\n" +
-                "Purchase_Status=" + purchStatus + "\n" +
-                '}';
+    public String toString() {
+        return "Deliveries{" + "\n" + "Delivery_Address=" + delAddress + "\n" + "Delivery_Status='" + delStatus + "\n" + "Purchase_Cost=" + purchCost + "\n" + "Purchase_Status=" + purchStatus + "\n" + '}';
     }
 }

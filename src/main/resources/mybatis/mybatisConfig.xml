@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC '-//mybatis.org//DTD Config 3.0//EN'
+        'http://mybatis.org/dtd/mybatis-3-config.dtd'>
+<configuration>
+    <properties resource="database.properties"/>
+    <typeAliases>
+        <typeAlias type= "newdatabaseproject.models.Customers" alias="Customers" />
+        <typeAlias alias="Deliveries" type= "newdatabaseproject.models.Deliveries"/>
+<!--        <typeAlias alias="Inventory"  type= "newdatabaseproject.models.Inventory"/>-->
+    </typeAliases>
+
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC">
+                <property name="defaultReadOnly" value="false"/>
+            </transactionManager>
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${userName}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <mappers>
+        <mapper resource = "mybatis/mapperFiles/CustomersMapper.xml"/>
+        <mapper resource = "mybatis/mapperFiles/DeliveriesMapper.xml"/>
+<!--        <mapper resource = "mybatis/mapperFiles/InventoryMapper.xml"/>-->
+    </mappers>
+
+</configuration>

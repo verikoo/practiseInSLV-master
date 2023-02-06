@@ -10,7 +10,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CustomersDAO implements ICustomersDAO {
+public class CustomersDAO extends MySqlDao implements ICustomersDAO {
     private final static Logger LOGGER = LogManager.getLogger(CustomersDAO.class);
 
     @Override
@@ -26,7 +26,7 @@ public class CustomersDAO implements ICustomersDAO {
             while(resultSet.next()){
                 newCustomers.setId(resultSet.getLong("id"));
                 newCustomers.setName(resultSet.getString("Name"));
-                newCustomers.setSurName(resultSet.getString("Surname"));
+                newCustomers.setSurname(resultSet.getString("Surname"));
                 newCustomers.setContactNumber(resultSet.getString("Contact_Number"));
                 newCustomers.setEmail(resultSet.getString("Email"));
                 newCustomers.setAddress(resultSet.getString("Address"));
@@ -37,8 +37,8 @@ public class CustomersDAO implements ICustomersDAO {
         }finally {
             try {
                 assert resultSet != null;
-                preparedStatement.close();
                 resultSet.close();
+                preparedStatement.close();
             } catch (SQLException e) {
                LOGGER.error(e);
             }
@@ -53,11 +53,15 @@ public class CustomersDAO implements ICustomersDAO {
         PreparedStatement preparedStatement = null;
      try{
         preparedStatement = connection.prepareStatement("INSERT INTO Customers(id, Name, Surname, Contact_Number,Email, Address, Purchase_History) VALUES(?,?,?,?,?,?,?)");
-        preparedStatement.setString(1, object.getName());
-        preparedStatement.setString(2,object.getSurName());
-        preparedStatement.setString(3,object.getContactNumber());
-        preparedStatement.setString(4,object.getEmail());
-        preparedStatement.setString(5,object.getPurchaseHistory());
+        preparedStatement.setLong(  1, object.getId());
+        preparedStatement.setString(2, object.getName());
+        preparedStatement.setString(3,object.getSurname());
+        preparedStatement.setString(4,object.getContactNumber());
+        preparedStatement.setString(5,object.getEmail());
+        preparedStatement.setString(6, object.getAddress());
+        preparedStatement.setString(7,object.getPurchaseHistory());
+        preparedStatement.executeUpdate();
+        LOGGER.info("Insert Completed Successfully");
     } catch (SQLException e){
         LOGGER.error(e);
     }finally{
@@ -79,7 +83,7 @@ public class CustomersDAO implements ICustomersDAO {
         try{
             preparedStatement = connection.prepareStatement("UPDATE Customers SET Name=?, Surname=?, Contact_Number=?, Email=?, Address=?, Purchase_History=?");
             preparedStatement.setString(1, object.getName());
-            preparedStatement.setString(2,object.getSurName());
+            preparedStatement.setString(2,object.getSurname());
             preparedStatement.setString(3, object.getContactNumber());
             preparedStatement.setString(4, object.getEmail());
             preparedStatement.setString(5, object.getPurchaseHistory());
@@ -128,13 +132,13 @@ public class CustomersDAO implements ICustomersDAO {
         ResultSet resultSet = null;
         try{
             statement = connection.createStatement();
-            resultSet = statement.executeQuery("SELECT FROM Customers");
+            resultSet = statement.executeQuery("SELECT * FROM Customers");
             while(resultSet.next()){
                 Customers customers =  new Customers();
 
                 customers.setId(resultSet.getLong("id"));
                 customers.setName(resultSet.getString("Name"));
-                customers.setSurName(resultSet.getString("Surname"));
+                customers.setSurname(resultSet.getString("Surname"));
                 customers.setContactNumber(resultSet.getString("Contact_Number"));
                 customers.setEmail(resultSet.getString("Email"));
                 customers.setAddress(resultSet.getString("Address"));
